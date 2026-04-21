@@ -1,0 +1,3 @@
+/Users/markseeliger/Desktop/Coding/messagequeue/build/CMakeFiles/messagequeue.dir
+/Users/markseeliger/Desktop/Coding/messagequeue/build/CMakeFiles/edit_cache.dir
+/Users/markseeliger/Desktop/Coding/messagequeue/build/CMakeFiles/rebuild_cache.dir
