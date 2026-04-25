@@ -1,0 +1,62 @@
+{
+  "tests": 10,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "QueueTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "DequeueReturnsSingleEnqueuedPayload",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 13
+        },
+        {
+          "name": "DequeueReturnsPayloadsInFirstInFirstOutOrder",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 22
+        },
+        {
+          "name": "HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "HandlesNegativeZeroAndPositivePayloads",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 48
+        },
+        {
+          "name": "SupportsInterleavedEnqueueAndDequeueOperations",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 61
+        },
+        {
+          "name": "CanBeReusedAfterBecomingEmpty",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 80
+        },
+        {
+          "name": "MaintainsIndependentStateAcrossMultipleQueues",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 92
+        },
+        {
+          "name": "PreservesEveryPayloadInALargerSequence",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 111
+        },
+        {
+          "name": "SupportsConcurrentProducers",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 128
+        },
+        {
+          "name": "SupportsOneProducerAndOneConsumerRunningConcurrently",
+          "file": "\/Users\/markseeliger\/Desktop\/Coding\/messagequeue\/tests\/QueueTest.cpp",
+          "line": 161
+        }
+      ]
+    }
+  ]
+}

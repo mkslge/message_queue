@@ -1,0 +1,12 @@
+QueueTest.DequeueReturnsSingleEnqueuedPayload 6 0.000524028
+QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder 6 0.000482521
+QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem 6 0.000503903
+QueueTest.HandlesNegativeZeroAndPositivePayloads 6 0.000485215
+QueueTest.SupportsInterleavedEnqueueAndDequeueOperations 6 0.000420833
+QueueTest.CanBeReusedAfterBecomingEmpty 6 0.000479389
+QueueTest.MaintainsIndependentStateAcrossMultipleQueues 6 0.000497174
+QueueTest.PreservesEveryPayloadInALargerSequence 6 0.000519535
+QueueTest.SupportsConcurrentProducers 6 0.000586764
+QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently 1 0
+---
+QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently
