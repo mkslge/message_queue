@@ -5,6 +5,7 @@
 #include <thread>
 #include <mutex>
 #include <memory>
+#include <condition_variable>
 
 class Queue {
     Node* dummy_head_;
@@ -25,8 +26,7 @@ class Queue {
     }
 
     void enqueue(Payload& pl) {
-        
-        std::lock_guard lg(tail_mutex_);
+        std::lock_guard lg(head_mutex_);
         Node* tail= new Node(pl);
         tail->next_ = dummy_tail_->next_;
         tail->prev_ = dummy_tail_;
@@ -42,21 +42,18 @@ class Queue {
         std::unique_lock<std::mutex> ul(head_mutex_);
         //release lock and sleep until the queue is not empty
         cv_.wait(ul, [this]{return size_ > 0;});
-        ul.unlock();
-        Node* to_delete = nullptr;
-        {
-            std::lock_guard<std::mutex> lg{head_mutex_};
-            to_delete = dummy_head_->prev_;
-            size_--;
-        }
-        Payload to_return = to_delete->val_;
+        Node* to_delete = dummy_head_->prev_;
+        Payload to_ret = to_delete->val_;
         to_delete->prev_->next_ = to_delete->next_;
         to_delete->next_->prev_ = to_delete->prev_;
+        size_--;
+        ul.unlock();
+
         delete to_delete;
         
         
 
-        return to_return;
+        return to_ret;
         
     }
 
@@ -100,22 +97,15 @@ class Queue {
     Queue& operator=(Queue& other) = delete;
 
     ~Queue() {
-        Node* curr = dummy_tail_->next_;
-        for(auto i = 0; i < size_;i++) {
-            Node* to_del = curr;
-            curr = to_del->next_;
-
-            delete to_del;
+        Node* curr = dummy_tail_;
+        while(curr != nullptr) {
+            Node* delete_me = curr;
+            curr = curr->next_;
+            delete delete_me;
         }
-
-
         size_ = 0;
-        delete dummy_head_;
-        delete dummy_tail_;
     }
 
 
 
 };
-
-

@@ -1,10 +1,10 @@
-Start testing: Apr 25 15:22 EDT
+Start testing: Apr 25 15:37 EDT
 ----------------------------------------------------------
 1/10 Testing: QueueTest.DequeueReturnsSingleEnqueuedPayload
 1/10 Test: QueueTest.DequeueReturnsSingleEnqueuedPayload
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.DequeueReturnsSingleEnqueuedPayload" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.DequeueReturnsSingleEnqueuedPayload" start time: Apr 25 15:22 EDT
+"QueueTest.DequeueReturnsSingleEnqueuedPayload" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -23,7 +23,7 @@ Note: Google Test filter = QueueTest.DequeueReturnsSingleEnqueuedPayload
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DequeueReturnsSingleEnqueuedPayload" end time: Apr 25 15:22 EDT
+"QueueTest.DequeueReturnsSingleEnqueuedPayload" end time: Apr 25 15:37 EDT
 "QueueTest.DequeueReturnsSingleEnqueuedPayload" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/10 Test: QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" start time: Apr 25 15:22 EDT
+"QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -50,7 +50,7 @@ Note: Google Test filter = QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrde
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" end time: Apr 25 15:22 EDT
+"QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" end time: Apr 25 15:37 EDT
 "QueueTest.DequeueReturnsPayloadsInFirstInFirstOutOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/10 Test: QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" start time: Apr 25 15:22 EDT
+"QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrRe
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.00 sec
+Test time =   0.02 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" end time: Apr 25 15:22 EDT
+"QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" end time: Apr 25 15:37 EDT
 "QueueTest.HandlesDuplicatePayloadsWithoutDroppingOrReorderingThem" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/10 Test: QueueTest.HandlesNegativeZeroAndPositivePayloads
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.HandlesNegativeZeroAndPositivePayloads" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.HandlesNegativeZeroAndPositivePayloads" start time: Apr 25 15:22 EDT
+"QueueTest.HandlesNegativeZeroAndPositivePayloads" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -104,7 +104,7 @@ Note: Google Test filter = QueueTest.HandlesNegativeZeroAndPositivePayloads
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.HandlesNegativeZeroAndPositivePayloads" end time: Apr 25 15:22 EDT
+"QueueTest.HandlesNegativeZeroAndPositivePayloads" end time: Apr 25 15:37 EDT
 "QueueTest.HandlesNegativeZeroAndPositivePayloads" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/10 Test: QueueTest.SupportsInterleavedEnqueueAndDequeueOperations
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" start time: Apr 25 15:22 EDT
+"QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -131,7 +131,7 @@ Note: Google Test filter = QueueTest.SupportsInterleavedEnqueueAndDequeueOperati
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" end time: Apr 25 15:22 EDT
+"QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" end time: Apr 25 15:37 EDT
 "QueueTest.SupportsInterleavedEnqueueAndDequeueOperations" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/10 Test: QueueTest.CanBeReusedAfterBecomingEmpty
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.CanBeReusedAfterBecomingEmpty" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.CanBeReusedAfterBecomingEmpty" start time: Apr 25 15:22 EDT
+"QueueTest.CanBeReusedAfterBecomingEmpty" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -158,7 +158,7 @@ Note: Google Test filter = QueueTest.CanBeReusedAfterBecomingEmpty
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.CanBeReusedAfterBecomingEmpty" end time: Apr 25 15:22 EDT
+"QueueTest.CanBeReusedAfterBecomingEmpty" end time: Apr 25 15:37 EDT
 "QueueTest.CanBeReusedAfterBecomingEmpty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/10 Test: QueueTest.MaintainsIndependentStateAcrossMultipleQueues
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.MaintainsIndependentStateAcrossMultipleQueues" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.MaintainsIndependentStateAcrossMultipleQueues" start time: Apr 25 15:22 EDT
+"QueueTest.MaintainsIndependentStateAcrossMultipleQueues" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -185,7 +185,7 @@ Note: Google Test filter = QueueTest.MaintainsIndependentStateAcrossMultipleQueu
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.MaintainsIndependentStateAcrossMultipleQueues" end time: Apr 25 15:22 EDT
+"QueueTest.MaintainsIndependentStateAcrossMultipleQueues" end time: Apr 25 15:37 EDT
 "QueueTest.MaintainsIndependentStateAcrossMultipleQueues" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/10 Test: QueueTest.PreservesEveryPayloadInALargerSequence
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.PreservesEveryPayloadInALargerSequence" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.PreservesEveryPayloadInALargerSequence" start time: Apr 25 15:22 EDT
+"QueueTest.PreservesEveryPayloadInALargerSequence" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -212,7 +212,7 @@ Note: Google Test filter = QueueTest.PreservesEveryPayloadInALargerSequence
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.PreservesEveryPayloadInALargerSequence" end time: Apr 25 15:22 EDT
+"QueueTest.PreservesEveryPayloadInALargerSequence" end time: Apr 25 15:37 EDT
 "QueueTest.PreservesEveryPayloadInALargerSequence" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/10 Test: QueueTest.SupportsConcurrentProducers
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.SupportsConcurrentProducers" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.SupportsConcurrentProducers" start time: Apr 25 15:22 EDT
+"QueueTest.SupportsConcurrentProducers" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -239,7 +239,7 @@ Note: Google Test filter = QueueTest.SupportsConcurrentProducers
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"QueueTest.SupportsConcurrentProducers" end time: Apr 25 15:22 EDT
+"QueueTest.SupportsConcurrentProducers" end time: Apr 25 15:37 EDT
 "QueueTest.SupportsConcurrentProducers" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/10 Test: QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently
 Command: "/Users/markseeliger/Desktop/Coding/messagequeue/build/messagequeue_tests" "--gtest_filter=QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" "--gtest_also_run_disabled_tests"
 Directory: /Users/markseeliger/Desktop/Coding/messagequeue/build
-"QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" start time: Apr 25 15:22 EDT
+"QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" start time: Apr 25 15:37 EDT
 Output:
 ----------------------------------------------------------
 Running main() from /private/tmp/googletest-20250910-5249-qce8ci/googletest-1.17.0/googletest/src/gtest_main.cc
@@ -256,12 +256,18 @@ Note: Google Test filter = QueueTest.SupportsOneProducerAndOneConsumerRunningCon
 [----------] Global test environment set-up.
 [----------] 1 test from QueueTest
 [ RUN      ] QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently
+1000[       OK ] QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently (0 ms)
+[----------] 1 test from QueueTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.02 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
-Test Failed.
-"QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" end time: Apr 25 15:22 EDT
+Test Passed.
+"QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" end time: Apr 25 15:37 EDT
 "QueueTest.SupportsOneProducerAndOneConsumerRunningConcurrently" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 25 15:22 EDT
+End testing: Apr 25 15:37 EDT

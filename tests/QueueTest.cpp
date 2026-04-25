@@ -188,7 +188,6 @@ TEST(QueueTest, SupportsOneProducerAndOneConsumerRunningConcurrently) {
     consumer.join();
 
     ASSERT_EQ(consumed.size(), payload_count);
-    std::cout << consumed.size();
     for (int expected = 0; expected < payload_count; ++expected) {
         EXPECT_EQ(consumed[expected], expected);
     }
